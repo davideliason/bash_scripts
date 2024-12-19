@@ -3,7 +3,7 @@
 
 This is a container for bash scripts as I continue to learn
 
-[bash reference](https://quickref.me/bash.html // great bash scripting source)
+[bash reference](https://quickref.me/bash.html) // great bash scripting source
 
 ### Basic Scripts
 - if_elif_else.sh // simple script to compare two command line args
