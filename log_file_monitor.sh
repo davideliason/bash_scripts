@@ -7,14 +7,11 @@ echo "The full file path is: $filepath"
 
 tail -n 10 $filepath
 
+trap "echo 'key prressed exitingr'; exit 0" SIGINT
+
 while True
 do
         tail -f $filename
-        read userinput
-        if [ $? -eq 0 ];
-        then 
-                exit
-        else
-                continue
-        fi
+
+        read -n 1 -s;
 done
